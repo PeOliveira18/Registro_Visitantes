@@ -1,3 +1,4 @@
+import CardInformacoes from "../components/cardInformacoes";
 import Forms from "../components/forms";
 import Header from "../components/header";
 import React from "react";
@@ -7,6 +8,7 @@ function Home() {
         <div>
             <Header/>
             <Forms/>
+            <CardInformacoes/>
         </div>
     );
 }

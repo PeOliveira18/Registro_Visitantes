@@ -27,6 +27,14 @@ app.post("/register", (req, res) => {
     })
 })
 
+app.get("/getCards", (req, res) => {
+    let SQL = "SELECT * FROM registo_visitantes"
+    db.query(SQL, (err, res) => {
+        console.log(err);
+    })
+})
+
+
 app.listen(3001, () => {console.log('Rodando servidor');
 })
 
