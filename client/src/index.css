@@ -8,4 +8,8 @@
   .div-forms{
     @apply flex flex-col 
   }
+
+  .espaco-info{
+    @apply border-[1px] p-1
+  }
 }
